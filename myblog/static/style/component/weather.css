@@ -1,0 +1,31 @@
+.weekWea{
+    margin:5px 3px 0px;
+    border-bottom: 1px solid #cccccc;
+    padding:5px 0px 5px 2px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.colorDiv .ant-col:nth-child(1) .weekWea{
+    background:red;
+}
+.colorDiv .ant-col:nth-child(2) .weekWea{
+    background: orange;
+}
+.colorDiv .ant-col:nth-child(3) .weekWea{
+    background:gold;
+}
+.colorDiv .ant-col:nth-child(4) .weekWea{
+    background: lime;
+}
+.colorDiv .ant-col:nth-child(5) .weekWea{
+    background: blue;
+}
+.colorDiv .ant-col:nth-child(6) .weekWea{
+    background: cyan;
+}
+.colorDiv .ant-col:nth-child(7) .weekWea{
+    background: purple;
+}
+.dark .ant-tabs{
+    color: rgba(255, 255, 255, .85);       
+}   

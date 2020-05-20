@@ -1,0 +1,106 @@
+.utbreak .main-div{
+  max-width: 1300px;
+  margin: 10px auto 20px;
+  background: #ffffff;
+}
+.utbreak iframe{
+  border: none;
+}
+.utbreak  .ant-tabs-nav{
+  width: 100%;
+}
+.utbreak  .ant-tabs-nav .ant-tabs-tab-active{
+  width: 50%;
+}
+.utbreak  .ant-tabs-nav .ant-tabs-tab{
+  width: 50%;
+  text-align: center;
+}
+.cover{
+  /* border: 1px solid red; */
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box
+}
+.cover .cover_confirm, .cover .cover_dead, .cover .cover_heal, .cover .cover_input, .cover .cover_nosymptom, .cover .cover_province_confirm, .cover .cover_province_dead, .cover .cover_province_heal, .cover .cover_severe, .cover .cover_suspect, .cover .cover_today_confirm{
+  float: left;
+  position: relative;
+  width: 100%;
+  min-height: 116px;
+  margin-bottom: 34px;
+}
+.cover .cover_confirm:before, .cover .cover_dead:before, .cover .cover_heal:before, .cover .cover_input:before, .cover .cover_nosymptom:before, .cover .cover_province_confirm:before, .cover .cover_province_dead:before, .cover .cover_province_heal:before, .cover .cover_severe:before, .cover .cover_suspect:before, .cover .cover_today_confirm:before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 46px;
+  width: 1px;
+  height: 30px;
+  background: #e8e8e8;
+}
+.cover .cover_confirm h4, .cover .cover_dead h4, .cover .cover_heal h4, .cover .cover_input h4, .cover .cover_nosymptom h4, .cover .cover_province_confirm h4, .cover .cover_province_dead h4, .cover .cover_province_heal h4, .cover .cover_severe h4, .cover .cover_suspect h4, .cover .cover_today_confirm h4{
+  text-align: center;
+  font: 20px/24px -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+  font-weight: 600;
+  color: #333;
+}
+.cover .cover_input .added span, .cover .cover_input .number{
+  color: #ffa352;
+}
+.cover .cover_confirm .added, .cover .cover_dead .added, .cover .cover_heal .added, .cover .cover_input .added, .cover .cover_nosymptom .added, .cover .cover_province_confirm .added, .cover .cover_province_dead .added, .cover .cover_province_heal .added, .cover .cover_severe .added, .cover .cover_suspect .added, .cover .cover_today_confirm .added{
+  display: none;
+  font: 18px/1 -apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+  color: #999;
+  text-align: center;
+}
+.cover .cover_input .added span, .cover .cover_input .number{
+  color: #ffa352;
+}
+.cover .cover_confirm .added span, .cover .cover_confirm .number, .cover .cover_province_confirm .added span, .cover .cover_province_confirm .number{
+  color: #a31d13;
+}
+.cover .cover_confirm .number, .cover .cover_dead .number, .cover .cover_heal .number, .cover .cover_input .number, .cover .cover_nosymptom .number, .cover .cover_province_confirm .number, .cover .cover_province_dead .number, .cover .cover_province_heal .number, .cover .cover_severe .number, .cover .cover_suspect .number, .cover .cover_today_confirm .number{
+  font: 700 44px/74px DIN Alternate,din_alternate_bold,-apple-system-font,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial;
+  text-align: center;
+}
+.cover .cover_nosymptom .added span, .cover .cover_nosymptom .number, .cover .cover_severe .added span, .cover .cover_severe .number{
+  color: #791618
+}
+.cover .cover_today_confirm .number{
+  color: #e44a3d
+}
+.cover .cover_dead .added span, .cover .cover_dead .number, .cover .cover_dead h4, .cover .cover_province_dead .added span, .cover .cover_province_dead .number, .cover .cover_province_dead h4{
+  color: #333
+}
+.cover .cover_heal .added span, .cover .cover_heal .number, .cover .cover_province_heal .added span, .cover .cover_province_heal .number{
+  color: #34aa70
+}
+.cover .cover_confirm .added span, .cover .cover_confirm .number, .cover .cover_province_confirm .added span, .cover .cover_province_confirm .number{
+  color: #a31d13;
+}
+.cover .cover_dead .added span, .cover .cover_dead .number, .cover .cover_dead h4, .cover .cover_province_dead .added span, .cover .cover_province_dead .number, .cover .cover_province_dead h4{
+  color: #333;
+}
+.cover .cover_heal .added span, .cover .cover_heal .number, .cover .cover_province_heal .added span, .cover .cover_province_heal .number{
+  color: #34aa70;
+}
+.cover .cover_today_confirm .added span{
+  color: #e44a3d
+}
+.utbreak .ant-spin-nested-loading{
+  height: 500px;
+  overflow-y: scroll
+}
+.utbreak #provinceNum .ant-collapse{
+  border-radius: 0px;
+}
+.provinceNumTitle{
+  border: 1px solid #d9d9d9;
+  border-bottom: 0px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 16px;
+}
+.dark .utbreak div h4{
+  color: rgba(255, 255, 255, .85);  
+}

@@ -1,0 +1,16 @@
+body{
+    background: #f4f5f5; 
+}
+body.dark {
+    background: #282c35;
+    color: rgba(255, 255, 255, .85);
+}
+ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box button{
+    width: 100%;
+    text-align: center;
+}

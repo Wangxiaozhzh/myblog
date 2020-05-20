@@ -1,0 +1,73 @@
+#comments{
+    max-width: 1205px;
+    width: 100%;
+    margin: 1rem auto 0;
+    background: #f9f9f9;
+    padding: 2rem
+}
+.dark #comments .ant-list-split .ant-list-header{
+    color: #ffffff;
+}
+.dark #comments{
+    background: #282c35;
+}
+.dark #comments textarea.ant-input{
+    background: #55575d;
+}
+.comments-div{
+    margin-right: 15px;
+    padding: 1.3rem;
+}
+.dark .ant-comment-content-author-name,.dark .ant-comment-content-detail{
+    color: rgba(255, 255, 255, .85);      
+}
+.dark .ant-modal-content .ant-input{
+    background: #55575d;
+}
+.dark .ant-empty-description{
+    color: #ffffff;
+}
+.comment_name{
+    display: inline-block;
+    height: 3rem;
+    line-height: 2.5rem;
+    width: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.replyDiv{
+    width:100%;
+    max-width: 500px;
+    background:#89919e;
+    padding:20px 20px 0;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+.commentName{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+}
+.dark .commentName{
+    color: #ffa7a1;   
+}
+.replyName{
+    color: rgba(255, 255, 255, .85);   
+    padding-bottom: .5rem;   
+}
+.toName{
+    color: #ff5722;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.addComment{
+    padding-top: 10px;
+}
+.addComment textarea{
+    margin: 20px 0;
+}
+.addComment button{
+    margin-top: 10px;
+}

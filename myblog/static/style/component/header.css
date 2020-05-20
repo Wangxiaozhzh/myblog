@@ -1,0 +1,75 @@
+.header{
+    background-color: #fff;
+    padding: .4rem;
+    overflow: hidden;
+    height: 2.8rem;
+    border-bottom:1px solid #ccc;
+}
+.dark .header{
+    background: #353b48;    
+}
+.header-center{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-logo{
+    color:#1e90ff;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.header-txt{
+    font-size: 0.6rem;
+    color: #999;
+    display: inline-block;
+    padding-left: 0.3rem;
+}
+.dark .header-txt{
+    color: rgba(255, 255, 255, .85);
+}
+.ant-menu{
+    line-height: 2.6rem;
+    -webkit-transition: 0s; 
+    transition:0s;
+}
+.dark .ant-menu{
+    background: #353b48;  
+    color: rgba(255, 255, 255, .85);
+}
+.ant-menu-item{
+    font-size:.9rem !important;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+.ant-menu-item .anticon{
+    vertical-align: -0.125em;
+}
+.date-div{
+    line-height: 2.6rem;
+    font-size:.8rem !important;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.date-div .login,.date-div .register{
+    font-size: .9rem;
+}
+.date-div .login{
+    padding: 0 10px;
+}
+.date-div .date{
+    padding-right: 1rem;
+    font-size: .9rem;
+}
+
+.login .login-form,.register .login-form  {
+    max-width: 300px;
+    margin:20px auto;
+  }
+.login .login-form-forgot,.register .login-form-forgot {
+    float: right;
+  }
+.login .login-form-button,.register .login-form-button {
+    width: 100%;
+  }
+  .login .ant-form-item-control , .register .ant-form-item-control{
+    line-height: 1
+}

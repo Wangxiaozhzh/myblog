@@ -1,0 +1,31 @@
+.author-div{
+    text-align: center;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 12px;
+}
+.dark .author-div{
+    background: #353b48;
+}
+.author-div div{
+    margin-bottom: 1rem;
+
+}
+.author-introduction{
+    font-size:.8rem;
+    color: #999;
+}
+.account{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.personInfo:hover .account{
+    background: #1d77ff
+}
+.ant-tag{
+    margin-top: 5px;
+}
+.dark .ant-divider-horizontal.ant-divider-with-text-center{
+    color: rgba(255, 255, 255, .85);
+}

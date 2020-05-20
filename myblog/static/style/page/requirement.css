@@ -1,0 +1,65 @@
+.require-div{
+    margin: 1rem auto;
+    max-width: 1300px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.dark .require-div,.dark .requirements{
+    background: #353b48;
+}
+.require-div textarea.ant-input{
+    margin: 20px 0;
+}
+.dark .require-div .ant-input{
+    background: #505256;
+}
+.require-div button{
+    width: 100%;
+}
+.requirements{
+    border-radius: 10px;
+    margin: 1rem auto;
+    max-width: 1300px;
+    background: #ffffff; 
+    padding:20px;
+}
+.requirements .ant-badge{
+    width: 100%;
+}
+.dark .requirements .ant-badge{
+    color: rgba(255, 255, 255, .85);    
+}
+.status1 .ant-badge-count{
+    background: #736efe;
+}
+.status2 .ant-badge-count{
+    background: #20c997;
+}
+.status3 .ant-badge-count{
+    background: #f5222d;
+}
+.requirement-date{
+    padding-left: 15px;
+}
+.requirements .ant-list-bordered{
+    border: none;
+}
+.requirements .ant-list-bordered .ant-list-item{
+    margin: 20px 0;
+    border-left: 5px solid #736efe;
+    padding: 10px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.requirements .ant-badge p{
+    padding: 1.2rem;
+    font-size: 1.1rem;
+}
+.dark .requirements .ant-list-bordered .ant-list-item{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.requirement-title{
+    float: right;
+}

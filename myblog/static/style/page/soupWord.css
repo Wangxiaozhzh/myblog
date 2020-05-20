@@ -1,0 +1,18 @@
+.soupWord{
+    text-align: center;
+    padding-top:15rem; 
+    padding-bottom:25rem; 
+}
+.btn-warp{
+    padding-top:5rem; 
+}
+.dark .soupWord-count{
+    color: rgba(255, 255, 255, .85);
+}
+.btn-warp button{
+    padding: 0 2rem;
+    border-radius: 15px
+}
+.btn-warp button:nth-child(1){
+    margin-right: 1.5rem;
+}

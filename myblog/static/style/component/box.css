@@ -1,0 +1,75 @@
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+.box{
+    padding: 1rem;
+    border-radius: 12px;
+    background: #ffffff;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+.dark .box{
+    background: #353b48;
+}
+.box .title span{
+    color: red;
+    display: inline-block;
+    padding-right: .6rem;
+}
+.dark .box .title{
+    color: rgba(255, 255, 255, .85);
+}
+.list-item{
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-item a{
+    color: #000;
+}
+.dark .list-item a{
+    color: rgba(255, 255, 255, .85);    
+}
+.box-img{
+    height: 30%;
+    padding: 0 .8rem 0 0;
+}
+.dark .box-img{
+    opacity: .5;
+}
+.Recommended .title{
+    display: inline-block;
+}
+.Recommended .loadMore{
+    float: right;
+    padding-top: .5rem;
+}
+.Recommended .newsList{
+    padding-top: 1rem;
+}
+.Recommended .newsList li{
+    display: flex;
+}
+.Recommended .newsList li .rank{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #969696;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.Recommended .newsList li:nth-child(-n+3) .rank{
+    background: #fd9a4d;
+}
+.Recommended .newsList .newsTitle{
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

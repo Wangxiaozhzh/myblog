@@ -1,0 +1,10 @@
+.footer-div{
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    color: #888;
+    font-size: .8rem;
+}
+.dark .footer-div{
+    color: rgba(255, 255, 255, .85);    
+}
