@@ -1,6 +1,6 @@
 // 管理所有的url地址
 const isDev = true;
-const serviceUrl = 'http://122.51.128.63:8080/'
+const serviceUrl = 'xxxx'
 const baseUrl = isDev ? 'http://localhost:8080/' :serviceUrl
 const servicePath = {
     baseUrl:baseUrl,
