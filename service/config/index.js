@@ -1,6 +1,6 @@
 // 配置类
 const DEV = true ;//是否是开发环境
-const serverUrl = 'http://122.51.128.63' //服务器地址
+const serverUrl = 'xxxxx' //服务器地址
 
 const config={
     port:'8413',
