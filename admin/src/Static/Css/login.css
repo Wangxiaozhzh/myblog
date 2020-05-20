@@ -1,0 +1,46 @@
+body{
+    background-color: #f9fafb;
+}
+.blog-title{
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blogName{
+    padding-left:100px;
+    font-size: 30px;
+    color: #1e9ede; 
+}
+.loginWrap{
+    height: 50vh;
+    width: 100%;
+    background: #1e9ede;
+    opacity: .7;
+    overflow: hidden;
+    padding-right: 200px;
+}
+.login-div{
+    margin:50px;
+    float: right;
+    width: 400px;
+}
+.loginWrap .loginWrap .ant-card {
+    background: #dceefe;
+}
+.loginWrap .ant-btn-primary{
+    background-color: #64cd64;
+    width: 100%;
+    border: none;
+}
+.loginWrap .ant-btn-primary:hover{
+    background-color: #f0cf19;
+}
+.loginWrap .ant-card-head{
+    border-bottom: 1px solid #1e9ede;
+}
+.loginWrap .ant-card .ant-card-head-title{
+    color: #1e9ede;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.logo{
+  height: 60px;
+}
+.ant-layout-header{
+  background-color: #1e91de;
+}
+.logo p{
+  height: 100%;
+  line-height: 60px;
+  margin: 0;
+  color: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item{
+  margin-top: 0;
+}
+.ant-menu-vertical .ant-menu-item{
+  margin-top: 0;
+}
+.ant-menu-item a{
+  color: rgba(255, 255, 255, 0.65);
+}
+.ant-menu-item-selected a{
+  color: #ffffff;
+}

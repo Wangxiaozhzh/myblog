@@ -1,0 +1,15 @@
+.example {
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 50px 0;
+  }
+  .ant-layout-footer{
+    padding: 13.5px 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #96bdef;
+  }

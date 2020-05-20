@@ -1,0 +1,17 @@
+.dataSnapshot{
+    display: flex;
+    justify-content: space-around;
+}
+.dataSnapshot>div{
+    width: 33.4%;
+}
+.dataSnapshot>div .ant-card {
+    background: #29b6f6;
+    overflow: hidden;
+    max-width: 400px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.dataSnapshot>div .ant-card .ant-card-head{
+    color: #ffffff;
+}

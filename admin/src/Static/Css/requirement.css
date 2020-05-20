@@ -1,0 +1,15 @@
+.status1,.status2,.status3{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #ffffff
+}
+.status1{
+    background: #736efe
+}
+.status2{
+    background: #20c997
+}
+.status3{
+    background: #f5222d
+}
