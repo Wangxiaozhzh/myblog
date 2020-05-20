@@ -2,7 +2,7 @@ import axios from 'axios';
 import {createHashHistory} from 'history';
 import {message} from 'antd';
 var instance = axios.create({
-    baseURL:'http://122.51.128.63:8080', //配置公共接口
+    baseURL:'http://localhost:8080', //配置公共接口
     withCredentials:true,
     timeout:3000,
     headers:{
