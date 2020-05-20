@@ -1,5 +1,5 @@
 const isDev = true;
-const serviceUrl = 'http://122.51.128.63:8080/'
+const serviceUrl = 'xxx'
 
 const baseUrl = isDev ? 'http://localhost:8080/':serviceUrl;
 const servicePath = {
